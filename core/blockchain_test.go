@@ -4260,7 +4260,7 @@ func TestEIP7702(t *testing.T) {
 				Nonce:   0,
 				Balance: big.NewInt(0),
 			},
-			bb: { // The address 0xBBBB sstores 42 into slot 42.
+			bb: { // The address 0xBBBB stores 42 into slot 42.
 				Code:    program.New().Sstore(0x42, 0x42).Bytes(),
 				Nonce:   0,
 				Balance: big.NewInt(0),
